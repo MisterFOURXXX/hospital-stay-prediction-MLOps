@@ -1,5 +1,19 @@
 # Hospital Stay Prediction - Optimized Production Pipeline
 
+> A production-ready MLOps pipeline for predicting hospital stay duration using stacked ensemble learning with **LightGBM, XGBoost, and CatBoost**. It covers the full ML lifecycle: data ingestion, PCA + SMOTE feature engineering, Optuna hyperparameter optimization, MLflow experiment tracking on DagsHub, DVC data versioning, Dockerized FastAPI inference, and AWS ECS Fargate deployment with auto-scaling.
+
+[![Python](https://img.shields.io/badge/python-3.11%2B-blue.svg)](https://www.python.org/)
+[![LightGBM](https://img.shields.io/badge/LightGBM-gradient%20boosting-green.svg)](https://lightgbm.readthedocs.io/)
+[![XGBoost](https://img.shields.io/badge/XGBoost-gradient%20boosting-red.svg)](https://xgboost.readthedocs.io/)
+[![CatBoost](https://img.shields.io/badge/CatBoost-gradient%20boosting-yellow.svg)](https://catboost.ai/)
+[![MLflow](https://img.shields.io/badge/MLflow-tracking-0194E2.svg)](https://mlflow.org/)
+[![DagsHub](https://img.shields.io/badge/DagsHub-remote%20tracking-FF6B35.svg)](https://dagshub.com/)
+[![Optuna](https://img.shields.io/badge/Optuna-hyperparameter%20tuning-4B8BBE.svg)](https://optuna.org/)
+[![DVC](https://img.shields.io/badge/DVC-data%20versioning-945DD6.svg)](https://dvc.org/)
+[![Docker](https://img.shields.io/badge/docker-containerized-2496ED.svg)](https://www.docker.com/)
+[![AWS](https://img.shields.io/badge/AWS-ECS%20Fargate-FF9900.svg)](https://aws.amazon.com/ecs/)
+[![FastAPI](https://img.shields.io/badge/FastAPI-inference-009688.svg)](https://fastapi.tiangolo.com/)
+
 ## Table of Contents
 
 - Introduction
